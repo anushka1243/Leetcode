@@ -8,3 +8,7 @@
         if (result > INT_MAX || result < INT_MIN) return 0;
         return static_cast<int>(result);
     }
+
+/*
+static_cast is use to convert from long long to int
+*/

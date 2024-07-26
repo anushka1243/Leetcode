@@ -18,4 +18,10 @@ public:
 };
 
 /*
+1. if number is negative it can't be palindrome becuse of negative sign
+   for eg. -121
+2. Convert the number to string 
+   reverse the string 
+   convert the string to number
+   and check it with original number
 */
